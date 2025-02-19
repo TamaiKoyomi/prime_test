@@ -6,4 +6,4 @@ st.title('ぱう')
 
 for i in range(10 ** 10):
     a = i ** 2 + 1
-    st.write(i + ':' + a)
+    st.write(str(i) + ':' + str(a))
