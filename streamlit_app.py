@@ -9,3 +9,6 @@ def prime():
         st.write('No')
     else:
         st.write('Yes')
+
+if st.button('実行'):
+    prime()
