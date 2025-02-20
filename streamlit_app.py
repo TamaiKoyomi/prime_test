@@ -5,6 +5,8 @@ st.title('ぱう')
 
 n = st.number_input('nの値を入力してください' , min_value = 0)
 
+po = n ** 2 + 1
+
 def is_prime_optimized(n):
     if n <= 1:
         return False
@@ -19,6 +21,5 @@ def is_prime_optimized(n):
         i += 6
     return True
 
-# 使用例
-st.write(is_prime_optimized(29))  # 結果: True
-st.write(is_prime_optimized(49))  # 結果: False
+if st.button('計算'):
+    st.write(is_prime_optimized(po))
