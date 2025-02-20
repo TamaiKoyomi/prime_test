@@ -5,7 +5,7 @@ st.title('ぱう')
 
 n = st.number_input('nの値を入力してください' , min_value = 0)
 
-po = n ** 2 + 1
+po = n * n + 1
 
 def is_prime_optimized(n):
     if n <= 1:
