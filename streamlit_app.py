@@ -22,4 +22,7 @@ def is_prime_optimized(n):
     return True
 
 if st.button('計算'):
-    st.write(is_prime_optimized(po))
+    if is_prime_optimized(po) == True:
+        st.write('prime')
+    else:
+        st.write('gousei')
